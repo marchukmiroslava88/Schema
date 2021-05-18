@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Schema
+
+# Model Form Field configuration
+form: $/onlinestore/schema/models/schema/fields.yaml
+
+# Model Class name
+modelClass: OnlineStore\Schema\Models\Schema
+
+# Default redirect location
+defaultRedirect: onlinestore/schema/schemas
+
+# Create page
+create:
+    title: Create Schema
+    redirect: onlinestore/schema/schemas/update/:id
+    redirectClose: onlinestore/schema/schemas
+
+# Update page
+update:
+    title: Edit Schema
+    redirect: onlinestore/schema/schemas
+    redirectClose: onlinestore/schema/schemas
+
+# Preview page
+preview:
+    title: Preview Schema

@@ -1,0 +1,14 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    fields:
+        name:
+            label: Название
+            type: text
+            tab: Схема
+        schema:
+            label: Схема
+            type: codeeditor
+            tab: Схема

@@ -1,0 +1,4 @@
+1.0.1:
+    - Run table migrations
+    - create_schemas_table.php
+    - create_entities_table.php
